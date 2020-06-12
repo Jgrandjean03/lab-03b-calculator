@@ -1,4 +1,4 @@
-import {add, minus, multi, div} from '../MathUtils.js';
+import { add, minus, multi, div } from '../MathUtils.js';
 
 const test = QUnit.test;
 
@@ -11,11 +11,11 @@ test('Adds 5 +5 ', function(expect){
     
 //Act 
 // Call the function you're testing and set the result to a const
-    const actual = add(number1,number2);
+    const actual = add(number1, number2);
 
 //Expect
 // Make assertions about what is expected versus the actual result
-    expect.equal(expected, actual)
+    expect.equal(expected, actual);
 });
 
 test('Adds 6+6', function(expect){ 
@@ -27,11 +27,11 @@ test('Adds 6+6', function(expect){
     
 //Act 
 // Call the function you're testing and set the result to a const
-    const actual = add(number1,number2);
+    const actual = add(number1, number2);
 
     //Expect
     // Make assertions about what is expected versus the actual result
-    expect.equal(expected, actual)
+    expect.equal(expected, actual);
 });
 
 test('Adds the words hello and world', function(expect){
@@ -43,11 +43,11 @@ test('Adds the words hello and world', function(expect){
     
 //Act 
 // Call the function you're testing and set the result to a const
-    const actual = add(number1,number2);
+    const actual = add(number1, number2);
 
 //Expect
 // Make assertions about what is expected versus the actual result
-    expect.equal(expected, actual)
+    expect.equal(expected, actual);
 });
 
 
@@ -61,7 +61,7 @@ test('Subtracts 5 from 50', function(expect) {
     
 //Act 
 // Call the function you're testing and set the result to a const
-    const actual = minus(number1,number2);
+    const actual = minus(number1, number2);
 
 //Expect
 // Make assertions about what is expected versus the actual result
@@ -77,7 +77,7 @@ test('subtracrts 5 from 5', function(expect) {
     
 //Act 
 // Call the function you're testing and set the result to a const
-    const actual = minus(number1,number2);
+    const actual = minus(number1, number2);
 
 //Expect
 // Make assertions about what is expected versus the actual result
@@ -93,7 +93,7 @@ test('subtracrts 12 from 6', function(expect) {
     
 //Act 
 // Call the function you're testing and set the result to a const
-    const actual = minus(number1,number2);
+    const actual = minus(number1, number2);
 
 //Expect
 // Make assertions about what is expected versus the actual result
@@ -109,7 +109,7 @@ test('Multiplies 0 times 0', function(expect) {
     
 //Act 
 // Call the function you're testing and set the result to a const
-    const actual = multi(number1,number2);
+    const actual = multi(number1, number2);
 
 //Expect
 // Make assertions about what is expected versus the actual result
@@ -125,7 +125,7 @@ test('Multiplies 5 times 5', function(expect) {
     
 //Act 
 // Call the function you're testing and set the result to a const
-    const actual = multi(number1,number2);
+    const actual = multi(number1, number2);
 
 //Expect
 // Make assertions about what is expected versus the actual result
@@ -141,7 +141,7 @@ test('Multiplies 7 times 7', function(expect) {
     
 //Act 
 // Call the function you're testing and set the result to a const
-    const actual = multi(number1,number2);
+    const actual = multi(number1, number2);
 
 //Expect
 // Make assertions about what is expected versus the actual result
@@ -157,7 +157,7 @@ test('Divides 6 into 60', function(expect) {
     
 //Act 
 // Call the function you're testing and set the result to a const
-    const actual = div(number1,number2);
+    const actual = div(number1, number2);
 
 //Expect
 // Make assertions about what is expected versus the actual result
@@ -173,7 +173,7 @@ test('Divides 6 into 30', function(expect) {
     
 //Act 
 // Call the function you're testing and set the result to a const
-    const actual = div(number1,number2);
+    const actual = div(number1, number2);
 
 //Expect
 // Make assertions about what is expected versus the actual result
@@ -188,7 +188,7 @@ test('Divides 7 into 49', function(expect) {
     
 //Act 
 // Call the function you're testing and set the result to a const
-    const actual = div(number1,number2);
+    const actual = div(number1, number2);
 
 //Expect
 // Make assertions about what is expected versus the actual result
