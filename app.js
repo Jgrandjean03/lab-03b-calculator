@@ -1,40 +1,78 @@
-const myaddButton = document.getElementById('add-button')
-
-myaddButton.addEventListener('click', () => {
-let number1 = document.getElementById('add1') 
-let number2 = document.getElementById('add2')
-const resultSpan = document.getElementById('addresult')
-
-resultSpan.textContent = (Number(add1.value) + Number(add2.value))
-})
+//imports all the math functions from MathUtils.js
+    import {add, minus, multi, div} from './MathUtils.js';
 
 
-const myminusButton = document.getElementById('minus-button')
+//ADDITION
+            const myaddButton = document.getElementById('add-button')
+                
+            myaddButton.addEventListener('click', () => {
+            //user input from website
+                const number1 = document.getElementById('add1') 
+                const number2 = document.getElementById('add2')
+                const resultSpan = document.getElementById('addresult')
 
-myminusButton.addEventListener('click', () => {
-let number3 = document.getElementById('minus1') 
-let number4 = document.getElementById('minus2')
-const resultSpan = document.getElementById('minusresult')
+            //defines user inputs as local variables to be used in function
+                const num1 = Number(number1.value);
+                const num2 = Number(number2.value);
+                const total = add(num1,num2)
 
-resultSpan.textContent = (Number(minus1.value) - Number(minus2.value))
-})
+            //prints result to addresult
+                resultSpan.textContent = total
+            })
 
-const mymultiButton = document.getElementById('multi-button')
 
-mymultiButton.addEventListener('click', () => {
-let number5 = document.getElementById('multi1') 
-let number6 = document.getElementById('multi2')
-const resultSpan = document.getElementById('multiresult')
+//SUBTRACTION
+            const myminusButton = document.getElementById('minus-button')
 
-resultSpan.textContent = (Number(multi1.value) * Number(multi2.value))
-})
+            myminusButton.addEventListener('click', () => {
+            //user input from website
+                const number1 = document.getElementById('minus1') 
+                const number2 = document.getElementById('minus2')
+                const resultSpan = document.getElementById('minusresult')
 
-const mydivButton = document.getElementById('div-button')
+            //defines user inputs as local variables to be used in function
+                const num1 = Number(number1.value);
+                const num2 = Number(number2.value);
+                const total = minus(num1,num2)
 
-mydivButton.addEventListener('click', () => {
-let number7 = document.getElementById('div1') 
-let number8 = document.getElementById('div2')
-const resultSpan = document.getElementById('divresult')
+            //prints result to minusresult
+                resultSpan.textContent = total
+            })
 
-resultSpan.textContent = (Number(div1.value) / Number(div2.value))
-})
+
+///MULTIPLY
+            const mymultiButton = document.getElementById('multi-button')
+
+            mymultiButton.addEventListener('click', () => {
+            //user input from website
+                const number1 = document.getElementById('multi1') 
+                const number2 = document.getElementById('multi2')
+                const resultSpan = document.getElementById('multiresult')
+
+            //defines user inputs as local variables to be used in function
+                const num1 = Number(number1.value);
+                const num2 = Number(number2.value);
+                const total = multi(num1,num2)
+
+            //prints result to multiresult
+                resultSpan.textContent = total
+            })
+
+        
+//DIVIDE            
+            const mydivButton = document.getElementById('div-button')
+
+            mydivButton.addEventListener('click', () => {
+            //user input from website
+                const number1 = document.getElementById('div1') 
+                const number2 = document.getElementById('div2')
+                const resultSpan = document.getElementById('divresult')
+
+            //defines user inputs as local variables to be used in function
+                const num1 = Number(number1.value);
+                const num2 = Number(number2.value);
+                const total = div(num1,num2)
+
+            //prints result to divresult
+                resultSpan.textContent = total
+            })
