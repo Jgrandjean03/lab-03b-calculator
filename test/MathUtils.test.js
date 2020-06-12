@@ -16,8 +16,7 @@ test('Adds 5 +5 ', function(expect){
 //Expect
 // Make assertions about what is expected versus the actual result
     expect.equal(expected, actual)
-}
-);
+});
 
 test('Adds 6+6', function(expect){ 
 //Arrange
@@ -33,8 +32,7 @@ test('Adds 6+6', function(expect){
     //Expect
     // Make assertions about what is expected versus the actual result
     expect.equal(expected, actual)
-}
-);
+});
 
 test('Adds the words hello and world', function(expect){
 //Arrange
@@ -50,8 +48,7 @@ test('Adds the words hello and world', function(expect){
 //Expect
 // Make assertions about what is expected versus the actual result
     expect.equal(expected, actual)
-}
-);
+});
 
 
 
@@ -69,8 +66,7 @@ test('Subtracts 5 from 50', function(expect) {
 //Expect
 // Make assertions about what is expected versus the actual result
     expect.equal(expected, actual);
-}
-);
+});
 
 test('subtracrts 5 from 5', function(expect) {
 //Arrange
@@ -86,8 +82,7 @@ test('subtracrts 5 from 5', function(expect) {
 //Expect
 // Make assertions about what is expected versus the actual result
     expect.equal(expected, actual);
-}
-);
+});
 
 test('subtracrts 12 from 6', function(expect) {
 //Arrange
@@ -103,8 +98,7 @@ test('subtracrts 12 from 6', function(expect) {
 //Expect
 // Make assertions about what is expected versus the actual result
     expect.equal(expected, actual);
-}
-);
+});
 
 test('Multiplies 0 times 0', function(expect) {
 //Arrange
@@ -120,8 +114,7 @@ test('Multiplies 0 times 0', function(expect) {
 //Expect
 // Make assertions about what is expected versus the actual result
     expect.equal(expected, actual);
-}
-);
+});
 
 test('Multiplies 5 times 5', function(expect) {
 //Arrange
@@ -137,8 +130,7 @@ test('Multiplies 5 times 5', function(expect) {
 //Expect
 // Make assertions about what is expected versus the actual result
     expect.equal(expected, actual);
-}
-);
+});
 
 test('Multiplies 7 times 7', function(expect) {
 //Arrange
@@ -154,8 +146,7 @@ test('Multiplies 7 times 7', function(expect) {
 //Expect
 // Make assertions about what is expected versus the actual result
     expect.equal(expected, actual);
-}
-);
+});
 
 test('Divides 6 into 60', function(expect) {
 //Arrange
@@ -171,8 +162,7 @@ test('Divides 6 into 60', function(expect) {
 //Expect
 // Make assertions about what is expected versus the actual result
     expect.equal(expected, actual);
-}
-);
+});
 
 test('Divides 6 into 30', function(expect) {
 //Arrange
@@ -188,8 +178,7 @@ test('Divides 6 into 30', function(expect) {
 //Expect
 // Make assertions about what is expected versus the actual result
     expect.equal(expected, actual);
-}
-);
+});
 test('Divides 7 into 49', function(expect) {
 //Arrange
 // Set up your parameters and expectations
@@ -204,5 +193,4 @@ test('Divides 7 into 49', function(expect) {
 //Expect
 // Make assertions about what is expected versus the actual result
     expect.equal(expected, actual);
-}
-);
+});
