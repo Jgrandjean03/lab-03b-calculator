@@ -5,8 +5,8 @@ const test = QUnit.test;
 test('Adds 5 +5 ', function(expect) {
     //Arrange
     // Set up your parameters and expectations
-    const number1 = 5
-    const number2 = 5
+    const number1 = 5;
+    const number2 = 5;
     const expected = 10;
     
     //Act 
@@ -21,8 +21,8 @@ test('Adds 5 +5 ', function(expect) {
 test('Adds 6+6', function(expect) {
     //Arrange
     // Set up your parameters and expectations
-    const number1 = 6
-    const number2 = 6
+    const number1 = 6;
+    const number2 = 6;
     const expected = 12;
     
     //Act 
@@ -37,8 +37,8 @@ test('Adds 6+6', function(expect) {
 test('Adds the words hello and world', function(expect) {
     //Arrange
     // Set up your parameters and expectations
-    const number1 = 'hello '
-    const number2 = 'world'
+    const number1 = 'hello ';
+    const number2 = 'world';
     const expected = 'hello world';
     
     //Act 
@@ -55,8 +55,8 @@ test('Adds the words hello and world', function(expect) {
 test('Subtracts 5 from 50', function(expect) {
     //Arrange
     // Set up your parameters and expectations
-    const number1 = 50
-    const number2 = 5
+    const number1 = 50;
+    const number2 = 5;
     const expected = 45;
     
     //Act 
@@ -71,8 +71,8 @@ test('Subtracts 5 from 50', function(expect) {
 test('subtracrts 5 from 5', function(expect) {
     //Arrange
     // Set up your parameters and expectations
-    const number1 = 5
-    const number2 = 5
+    const number1 = 5;
+    const number2 = 5;
     const expected = 0;
     
     //Act 
@@ -87,8 +87,8 @@ test('subtracrts 5 from 5', function(expect) {
 test('subtracrts 12 from 6', function(expect) {
     //Arrange
     // Set up your parameters and expectations
-    const number1 = 6
-    const number2 = 12
+    const number1 = 6;
+    const number2 = 12;
     const expected = -6;
     
     //Act 
@@ -103,8 +103,8 @@ test('subtracrts 12 from 6', function(expect) {
 test('Multiplies 0 times 0', function(expect) {
     //Arrange
     // Set up your parameters and expectations
-    const number1 = 0
-    const number2 = 0
+    const number1 = 0;
+    const number2 = 0;
     const expected = 0;
     
     //Act 
@@ -119,8 +119,8 @@ test('Multiplies 0 times 0', function(expect) {
 test('Multiplies 5 times 5', function(expect) {
     //Arrange
     // Set up your parameters and expectations
-    const number1 = 5
-    const number2 = 5
+    const number1 = 5;
+    const number2 = 5;
     const expected = 25;
     
     //Act 
@@ -135,8 +135,8 @@ test('Multiplies 5 times 5', function(expect) {
 test('Multiplies 7 times 7', function(expect) {
     //Arrange
     // Set up your parameters and expectations
-    const number1 = 7
-    const number2 = 7
+    const number1 = 7;
+    const number2 = 7;
     const expected = 49;
     
     //Act 
@@ -151,8 +151,8 @@ test('Multiplies 7 times 7', function(expect) {
 test('Divides 6 into 60', function(expect) {
     //Arrange
     // Set up your parameters and expectations
-    const number1 = 60
-    const number2 = 6
+    const number1 = 60;
+    const number2 = 6;
     const expected = 10;
     
     //Act 
@@ -167,8 +167,8 @@ test('Divides 6 into 60', function(expect) {
 test('Divides 6 into 30', function(expect) {
     //Arrange
     // Set up your parameters and expectations
-    const number1 = 30
-    const number2 = 6
+    const number1 = 30;
+    const number2 = 6;
     const expected = 5;
     
     //Act 
@@ -182,8 +182,8 @@ test('Divides 6 into 30', function(expect) {
 test('Divides 7 into 49', function(expect) {
     //Arrange
     // Set up your parameters and expectations
-    const number1 = 49
-    const number2 = 7
+    const number1 = 49;
+    const number2 = 7;
     const expected = 7;
     
     //Act 
